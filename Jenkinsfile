@@ -2,6 +2,7 @@
 stage('One') {
     node {
         @Library('sharedLib') _
+        echo '#### gitCheckoutScm'
         gitCheckoutScm()
     }
 }
